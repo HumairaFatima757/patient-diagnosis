@@ -1,0 +1,416 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-image:url(./hospital-cartoon-background-vector-8060725.jpg ) ;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+      /* background-attachment: c; */
+      /* background-size: contain; */
+      /* width: 804px; */
+/* height: 566px; */
+
+ }
+ #baradiv{
+    display: none;
+    
+}
+#baradiv button{
+    height: 30px;
+    /* width: 70px; */
+}
+
+ #container{
+      /* background-color: rgb(27, 93, 151); */
+       /* height:500px;
+       width: 100px; */
+       height: 564px;
+       /* padding: 0px; */
+       /* margin: 0px; */
+      
+      /* background-repeat: no-repeat; */
+      /* background-attachment: c; */
+      /* background-size: contain;  */
+ }
+ #head1{
+     text-align: center;
+     color: rgb(43, 19, 110);
+ }
+ #head2{
+     text-align: center;
+     color: rgb(43, 19, 110);
+ }
+ #inp1{
+     width: 367px;
+height: 127px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+
+position: absolute;
+margin-top: 244px;
+margin-right: 58px;
+margin-left: 144px;
+
+
+         display:none;
+         
+
+
+ }
+ #head3{
+     color: rgb(43, 19, 110);
+ }
+ .opt0{
+     background-color: aqua;
+     border: 2px solid yellow;
+     background-color: rgb(40, 102, 102);
+     color: rgb(43, 19, 110);
+     height: 57px;
+    font-size: 19px;
+    width: 222px
+ }
+ #opt{
+     color: azure;
+ }
+ #inp2{
+     background-color: rgb(40, 102, 102);
+      border: 2px solid yellow;
+ }
+ #inp3{
+     background-color: rgb(40, 102, 102);
+      border: 2px solid yellow;
+
+ }
+ #head4{color: rgb(43, 19, 110);}
+ #head5{
+    color: rgb(43, 19, 110);
+     /* display: ; */
+    
+  }
+
+  @media only screen and  (max-width:329px)  and (min-width:250px)
+{   #inp1{
+width: 258px;
+height: 100px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 380px;
+margin-right: 58px;
+margin-left: -58px;
+display:none;
+}
+}
+@media only screen and  (max-width:347px)  and (min-width:330px){
+#inp1 {
+width: 262px;
+height: 98px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 389px;
+margin-right: 39px;
+margin-left: -53px;
+display:none;
+}}
+@media only screen and  (max-width:382px)  and (min-width:348px)
+{#inp1{
+width: 293px;
+height: 104px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 430px;
+margin-right: 58px;
+margin-left: -55px;
+display:none;
+ 
+
+}}
+@media only screen and  (max-width:440px)  and (min-width:383px)
+{ #inp1 {
+width: 302px;
+height: 122px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 442px;
+margin-right: 58px;
+margin-left: -34px;
+display:none;}}
+
+@media only screen and  (max-width:520px)  and (min-width:440px)
+{#inp1 {
+width: 324px;
+height: 122px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 362px;
+margin-right: 58px;
+margin-left: -10px;
+display:none;}}
+@media only screen and  (max-width:607px)  and (min-width:521px)
+{#inp1 {
+width: 351px;
+height: 109px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 333px;
+margin-right: 58px;
+margin-left: 6px;
+display:none;}}
+
+@media only screen and  (max-width:650px)  and (min-width:608px)
+{#inp1 {
+width: 340px;
+height: 103px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 384px;
+margin-right: 58px;
+margin-left: 53px;display:none;
+}}
+@media only screen and  (max-width:699px)  and (min-width:651px)
+{#inp1 {
+width: 333px;
+height: 117px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 307px;
+margin-right: 58px;
+margin-left: 82px;
+display:none;}}
+@media only screen and  (max-width:759px)  and (min-width:700px)
+{#inp1 {
+width: 332px;
+height: 106px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 349px;
+margin-right: 58px;
+margin-left: 98px;
+display:none;}}
+@media only screen and  (max-width:820px)  and (min-width:760px){
+#inp1 {
+width: 367px;
+height: 127px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 371px;
+margin-right: 58px;
+margin-left: 144px;
+display:none;}
+}
+
+@media only screen and  (max-width:883px)  and (min-width:821px){
+#inp1 {
+width: 367px;
+height: 127px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 393px;
+margin-right: 58px;
+margin-left: 144px;
+display:none;}}
+@media only screen and  (max-width:930px)  and (min-width:884px){
+#inp1 {
+width: 367px;
+height: 127px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 383px;
+margin-right: 58px;
+margin-left: 186px;
+display:none;}}
+@media only screen and  (max-width:1000px)  and (min-width:931px){
+#inp1 {
+width: 367px;
+height: 127px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 384px;
+margin-right: 58px;
+margin-left: 215px;
+display:none;}}
+@media only screen and  (max-width:1046px)  and (min-width:1001px){
+#inp1 {
+width: 367px;
+height: 127px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 394px;
+margin-right: 58px;
+margin-left: 243px;
+display:none;  
+}}
+@media only screen and  (max-width:1120px)  and (min-width:1047px){
+#inp1 {
+width: 367px;
+height: 127px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 383px;
+margin-right: 58px;
+margin-left: 274px;
+display:none;}}
+@media only screen and  (max-width:1221px)  and (min-width:1121px){
+#inp1 {
+width: 367px;
+height: 127px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 392px;
+margin-right: 58px;
+margin-left: 296px;
+/* display:none; */
+}}
+@media only screen and  (max-width:1322px)  and (min-width:1222px){
+#inp1 {
+width: 367px;
+height: 127px;
+background-color: rgb(40, 102, 102);
+border: 2px solid yellow;
+text-align: center;
+font-size: 30px;
+color: rgb(234, 174, 22);
+left: 80px;
+top: 10px;
+position: absolute;
+margin-top: 394px;
+margin-right: 58px;
+margin-left: 346px;
+/* display:none; */
+}}
+@media only screen and  (max-width:1400px)  and (min-width:1323px){#inp1 {
+    width: 367px;
+    height: 127px;
+    background-color: rgb(40, 102, 102);
+    border: 2px solid yellow;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(234, 174, 22);
+    left: 80px;
+    top: 10px;
+    position: absolute;
+    margin-top: 408px;
+    margin-right: 58px;
+    margin-left: 412px;
+    /* display:none */
+}}
+    @media only screen and  (max-width:1500px)  and (min-width:1401px){#inp1 {
+        width: 367px;
+        height: 127px;
+        background-color: rgb(40, 102, 102);
+        border: 2px solid yellow;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(234, 174, 22);
+        left: 80px;
+        top: 10px;
+        position: absolute;
+        margin-top: 373px;
+        margin-right: 58px;
+        margin-left: 422px;
+    /* display:none;*/
+}} 
